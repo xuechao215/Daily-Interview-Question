@@ -1,106 +1,72 @@
 # Daily-Interview-Question
 
-工作日每天一道前端大厂面试题，祝大家天天进步，一年后会看到不一样的自己。
+加入前端「壹题」学习小组，尽在公众号「高级前端进阶」，进阶共勉之！
 
-欢迎 PR 你认为不错的面试题，共同参与这个伟大的项目。
+工作日每天一道大厂前端面试题，一年后再回头，会感谢曾经努力的自己！
+
+[线上版本阅读更流畅，点击阅读](https://muyiy.cn/question/)
+
+<br/>
+
 
 
 
 ## 今日面试题
+2019-09-11
 
-2019-02-01
-
-> 第 10 期：笔试题，请写出下面代码的运行结果
-
-```js
-async function async1() {
-    console.log('async1 start');
-    await async2();
-    console.log('async1 end');
-}
-async function async2() {
-    console.log('async2');
-}
-console.log('script start');
-setTimeout(function() {
-    console.log('setTimeout');
-}, 0)
-async1();
-new Promise(function(resolve) {
-    console.log('promise1');
-    resolve();
-}).then(function() {
-    console.log('promise2');
-});
-console.log('script end');
-```
+> 第 138 题：反转链表，每 k 个节点反转一次，不足 k 就保持原有顺序（哔哩哔哩）
+>
 
 
 
-## 历史汇总
+解析：[第 138 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/278)
 
-2019-01-31
-
-> 第 9 期：Async/Await 如何通过同步的方式实现异步？
+<br/>
 
 
 
-2019-01-30
 
-> 第 8 期：介绍下setTimeout、Promise、Async/Await 的区别？
+## 本周汇总
 
+2019-09-04
 
-
-2019-01-29
-
-> 第 7 期：ES5/ES6 的继承除了写法以外还有什么区别？
+> 第 137 题：如何在 H5 和小程序项目中计算白屏时间和首屏时间，说说你的思路
 
 
 
-2019-01-28
+解析：[第 137 题](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/272)
 
-> 第 6 期：请分别用深度优先思想和广度优先思想实现一个拷贝函数？
-
-
-
-2019-01-25
-
-> 第 5 期：介绍下深度优先遍历和广度优先遍历，如何实现？
+<br/>
 
 
 
-2019-01-24 
 
-> 第 4 期：介绍下 Set、Map、WeakSet 和 WeakMap 的区别？
+## 所有面试题汇总
 
-解析：[Set、Map、WeakSet 和 WeakMap](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/6)
+-   [壹题所有题目及答案汇总](https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md)
 
-
-
-2019-01-23
-
-> 第 3 期：什么是防抖和节流？有什么区别？如何实现？
-
-解析：[节流和防抖的个人见解](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/5)
+<br/>
 
 
 
-2019-01-22 
+## 半月刊
 
-> 第 2 期：`['1', '2', '3'].map(parseInt)` what & why ?
+- [前端 100 问：能搞懂 80% 的请把简历给我](https://github.com/yygmind/blog/issues/43)
+- [【半月刊 1】前端高频面试题及答案汇总](https://juejin.im/post/5c6977e46fb9a049fd1063dc)
+- [【半月刊 2】前端高频面试题及答案汇总](https://juejin.im/post/5c7bd72ef265da2de80f7f17)
+- [【半月刊 3】前端高频面试题及答案汇总](https://juejin.im/post/5c9ac3f66fb9a070e056718f)
+- [【半月刊 4】前端高频面试题及答案汇总](https://juejin.im/post/5cb3376bf265da039c0543da)
 
-解析：[['1', '2', '3'].map(parseInt) 解析](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/4)
-
-
-
-2019-01-21
-
-> 第 1 期：写 React / Vue 项目时为什么要在组件中写 key，其作用是什么？
-
-解析：[key的作用是为了在diff算法执行时更快的找到对应的节点，提高diff速度。](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/1)
+<br/>
 
 
 
-## 加入
+## 联系我
 
-欢迎大家积极加入 Advanced-Frontend 组织，一起维护整个项目。
+进阶系列文章汇总如下，觉得不错点个 star，欢迎 **加群** 互相学习。
+
+> [https://github.com/yygmind/blog](https://github.com/yygmind/blog)
+
+我是木易杨，公众号「高级前端进阶」作者，跟着我**每周重点攻克一个前端面试重难点**。接下来让我带你走进高级前端的世界，在进阶的路上，共勉！
+
+![image](https://github.com/yygmind/blog/raw/master/images/weixin_re.png)
